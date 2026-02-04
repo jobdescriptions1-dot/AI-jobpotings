@@ -1,0 +1,33 @@
+# Sensitive credentials - REMOVE THESE
+.env
+credentials*.json
+client.json
+token*.json
+
+# Database files - REMOVE THESE
+sqlite_db/
+*.db
+email_tracking.json
+processed_emails.json
+processed_files.json
+job_tracker_report.xlsx
+
+# Document folders - REMOVE THESE
+Documents/
+dir_documents/
+dir_portal_outputs/
+vms_documents/
+vms_outputs/
+chromadb_data/
+
+# Test files - REMOVE THESE
+test_output.json
+test_chatbot.py
+test_rag_filters.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
